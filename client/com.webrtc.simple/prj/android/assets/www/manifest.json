@@ -1,0 +1,38 @@
+{
+  "name": "TestWebRTC",
+  "short_name": "SimpleWebRTC",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "index.html",
+  "xwalk_app_version": "0.1",
+  "xwalk_command_line": "",
+  "xwalk_package_id": "com.webrtc.simple",
+  "xwalk_target_platforms": [
+    "android"
+  ],
+  "xwalk_target_targets": [
+    "armeabi-v7a"
+  ],
+  "xwalk_android_animatable_view": false,
+  "xwalk_android_keep_screen_on": false,
+  "xwalk_android_permissions": [
+    "ACCESS_NETWORK_STATE",
+    "ACCESS_WIFI_STATE",
+    "INTERNET",
+    "CAMERA",
+    "MODIFY_AUDIO_SETTINGS",
+    "RECORD_AUDIO",
+    "WAKE_LOCK",
+    "READ_PHONE_STATE",
+    "READ_EXTERNAL_STORAGE",
+    "WRITE_EXTERNAL_STORAGE"
+  ],
+  "xwalk_windows_update_id": "00425876-2113-7499-8184-163967729546",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "72x72"
+    }
+  ]
+}
